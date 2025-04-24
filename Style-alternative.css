@@ -51,8 +51,10 @@ body {
 
 /* Using a container wrapper to fill the page & position footer at the bottom */
 .container section {
+  max-height: 100vh;
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: 50px;
   margin: 0 auto;
   text-align: center;
   flex: auto;
