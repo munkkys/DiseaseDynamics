@@ -45,13 +45,17 @@ body {
 /* Using a container wrapper to fill the page & position footer at the bottom */
 .container {
   min-height: 100vh;
-  padding-left: 50px;
-  padding-right: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
   flex: auto;
   display: flex;
   flex-direction: row;
 }
 
+/*Download section */
+.download-section {
+  padding-right: 150px;
+}
 /* Download button */
 .download-btn {
   display: inline-block;
