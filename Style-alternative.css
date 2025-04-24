@@ -13,6 +13,13 @@ header h1 {
   text-align: center;
 }
 
+.logImg {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
 header hr {
   border: 1px solid #747474;
 }
@@ -43,20 +50,17 @@ body {
 }
 
 /* Using a container wrapper to fill the page & position footer at the bottom */
-.container {
-  min-height: 100vh;
+.container section {
   padding-left: 100px;
   padding-right: 100px;
+  margin: 0 auto;
+  text-align: center;
   flex: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
 }
 
-/*Download section */
-.download-section {
-  padding-right: 150px;
-}
-/* Download button */
 .download-btn {
   display: inline-block;
   padding: 10px 20px;
@@ -71,22 +75,26 @@ body {
   background-color: #0056b3;
 }
 
-/* Authors bar*/
-.authors {
-  position: static;
-  left: 20px;
-  width: fit-content;
-  max-height: fit-content;
+/* Footer */
+.authors-footer {
+  background-color: #f0f0f0;
   padding: 20px;
-  margin-right: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  margin-top: 50px;
+  border-top: 1px solid #ccc;
+  text-align: center;
 }
 
-/* Footer */
+.authors-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.authors-footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
 footer {
   text-align: center;
   padding: 10px;
