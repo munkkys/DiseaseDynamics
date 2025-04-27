@@ -40,7 +40,7 @@ nav a:hover {
 /* Main style choices for the page*/
 body {
   font-family: Arial, sans-serif;
-  text-align: center;
+  text-align: left;
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
@@ -50,8 +50,9 @@ body {
 }
 
 /* Using a container wrapper to fill the page & position footer at the bottom */
-.container section {
-  max-height: 100vh;
+.container-home section {
+  width: 100%;
+  max-width: 1000px;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 50px;
@@ -61,6 +62,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.container-tutorial section {
+  width: 100%;
+  max-width: 1000px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  text-align: left;
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .download-btn {
