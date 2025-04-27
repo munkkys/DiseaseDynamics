@@ -13,7 +13,7 @@
 <body>
 
     <header>
-        <h1>Disease Dyanmics <img src="DiseaseDynamicsLogo.png" alt="logo" class="logImg"></h1>
+        <h1>Disease Dyanmics <img src="DiseaseDynamicsLogo.png" alt="logo" class="log-img"></h1>
 
         <hr />
 
@@ -27,50 +27,57 @@
     <div class="container-tutorial">
         <section>
             <h2>Installation Guide</h2>
-            <p></p>
 
-            <h3>Step 1: Download the .zip file</h3>
-            <p>A photo goes here</p>
+            <h3>Step 1: Downloading the ZIP file </h3>
             <p> Head over to Disease Dynamics:
-                Home1 and click on the Download Here button to download
-                in your browser. </p>
+                Home and click on the <strong>Download Here</strong> button to download
+                the ZIP file. </p>
+            <img src="Step_1_Download_ZIP.png" class="tutorial-img">
 
-            <h3>Step 2: Extract contents</h3>
-            <p>A photo goes here</p>
-            <p>Navigate to your local Downloads folder and right-click to extract the zip. Within the extracted file,
-                you will see following:</p>
+
+            <h3>Step 2: Extracting contents </h3>
+            <p>Navigate to your local <strong>Downloads</strong> folder, right-click on the downloaded ZIP file, and
+                select <strong>"Extract All..."</strong>.</p>
+            <p>Choose a destination folder for the extracted files. </p>
+            <img src="Step_2_Extract_file.png" class="tutorial-img">
+            <img src="Step_2_Extract_File_2.png" class="tutorial-img">
+
+            <p>After extracting, you should see the following items inside the Disease Dynamics folder: </p>
             <ul>
-                <li><strong>Backend</strong>: This folder contains all the files needed to run the program as well as
-                    the
-                    pre-loaded datasets. Within
-                    it, you will find the Datasets folder containing all of the pre-loaded datasets.</li>
-
-                <li><strong>ML</strong>: This folder contains the trained models, one of which is currently used within
-                    Disease Dynamics.</li>
-
-                <li><strong>Website</strong>: This folder contains the html and style sheet for the Disease Dynamics
-                    website.</li>
-
-                <li><strong>DiseaseDynamics.exe</strong>: You can use this file to quickly start up the program.</li>
+                <li><strong>Backend:</strong> This folder contains all the files needed to run the program.</li>
+                <li><strong>Datasets:</strong> This folder contains the pre-loaded datasets.</li>
+                <li><strong>DiseaseDynamics.exe:</strong> You can use this file to quickly start up the program.</li>
+                <li><strong>ML and Website:</strong> These folders contain supporting files for the machine learning
+                    model and project website, respectively. These are not necessary to run the program. </li>
             </ul>
+            <img src="Extracted_ZIP.png" class="tutorial-img">
 
-            <h3>Step 3: Run the program </h3>
-            <p>To run Disease Dynamics on your device you can either:</p>
+            <h3>Step 3: Running the program </h3>
+            <p>You can run Disease Dynamics on your device in two ways: </p>
 
             <ol>
-                <li>Run the DiseaseDynamics.exe file. </li>
-                <li>
+                <li><strong>Option 1:</strong> Simply double-click on the DiseaseDynamics.exe file to start the
+                    application.</li>
+                <li><strong>Option 2:</strong>
                     <p>Head over to the Backend folder and run the GUI.py file.</p>
-                    <p><strong>Note:</strong> To run the python script, your device will need the following modules
+                    <p><strong>Note:</strong> To run the python script directly, your device will need following modules
                         installed:</p>
-                    <p>PyQt5, matplotlib, geopandas, seaborn, pandas, numpy, joblib.</p>
-                    <p>If you do not have these installed, or are not sure, enter this command into your device
-                        Terminal:</p>
-                    <p><em>install PyQt5 matplotlib geopandas seaborn pandas numpy joblib </em></p>
-                    <p>To ensure the script runs as intended, take care not to move or delete any files within the
-                        Backend folder.</p>
+                    <p><em> PyQt5, matplotlib, geopandas, seaborn, pandas, numpy, joblib.</em></p>
+                    <p>If you do not have these installed, enter this command into your device Terminal:</p>
+                    <p><em><strong> pip install</strong> PyQt5 matplotlib geopandas seaborn pandas numpy joblib</em></p>
+                    <p>If you are unsure whether these modules are already installed, running the above command will
+                        install or update them as needed.</p>
+                    <p><strong>Important:</strong></p>
+                    <p>Please do not delete, move or rename any files within the Backend folder. Doing so may cause the
+                        application to malfunction.</p>
                 </li>
             </ol>
+            <h3>After Launching the Program </h3>
+            <p>After starting the application successfully, the main program window should appear:</p>
+            <img src="main_application_window.png" class="tutorial-img">
+            <p>You can now click on the folder icon at the bottom of the window to select a source folder containing the
+                datasets you wish to examine.</p>
+            <img src="selecting_source_folder.png" class="tutorial-img">
 
             <h3>Step 4: Success!</h3>
             <p>You have successfully run Disease Dynamics on your device. </p>

@@ -13,7 +13,7 @@ header h1 {
   text-align: center;
 }
 
-.logImg {
+.log-img {
   width: 60px;
   height: 60px;
   vertical-align: middle;
@@ -64,6 +64,20 @@ body {
   align-items: center;
 }
 
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
 .container-tutorial section {
   width: 100%;
   max-width: 1000px;
@@ -78,18 +92,12 @@ body {
   align-items: flex-start;
 }
 
-.download-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 18px;
-}
-
-.download-btn:hover {
-  background-color: #0056b3;
+.tutorial-img {
+  max-width: 80%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
